@@ -15,6 +15,7 @@
             Meteor.logout(function() {
                 loginButtonsSession.closeDropdown();
             });
+            Router.go('/projects');
         }
     });
 
